@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(to top ,rgb(225, 244, 249),rgba(225, 244, 249,.5),rgba(225, 244, 249,.2),rgba(255,255,255,.5)),url(../img/landinga.jpg);
-    background-size: cover;
+    background-size: cover ;
     background-repeat: no-repeat;
     
 }
@@ -24,7 +24,7 @@
 }
 .workup {
     
-    background-image: linear-gradient(to bottom, rgba(225, 244, 249,1), rgba(225, 244, 249,.8),rgba(225, 244, 249,.5),rgb(255,255,255));
+    background-image: linear-gradient(to left, rgb(225, 244, 249)  ,rgb(124,243,210),white,rgb(225, 244, 249));
 }
 
 
