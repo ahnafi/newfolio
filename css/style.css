@@ -1,7 +1,18 @@
+/* 
+
+
+#F4F9F9 rgb(244, 249, 249)
+#CCF2F4 rgb(204, 242, 244)
+#A4EBF3 rgb(164, 235, 243)
+#AAAAAA rgb(170, 170, 170)
+
+
+*/
+
 .landing {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top ,rgb(225, 244, 249),rgba(225, 244, 249,.5),rgba(225, 244, 249,.2),rgba(255,255,255,.5)),url(../img/landinga.jpg);
+    background-image: linear-gradient(to bottom ,rgba(204, 242, 244,.8),rgba(244, 249, 249,.5) , rgb(244, 249, 249)),url(../img/landinga.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     
@@ -12,37 +23,37 @@
 .landingfont2 {
     font-size: 5em;
 }
-.jumbotron ,.service  {
-    background-color: rgb(225, 244, 249) ;
-    
+.jumbotron ,.projects  {
+   
+    background-color: rgb(244, 249, 249) ;
 }
-
+.project {
+    background-color: rgb(164, 235, 243)  ;
+}
 .profileImg {
     width: 300px;
     height: 300px;
     
 }
 .workup {
-    
-    background-image: linear-gradient(to left, rgb(225, 244, 249)  ,rgb(124,243,210),white,rgb(225, 244, 249));
+    background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(204, 242, 244),rgb(164, 235, 243),rgba(204, 242, 244,.5),rgb(244, 249, 249),rgb(244, 249, 249),rgb(244, 249, 249)) ;
 }
 
 
-
-.linkjumb {
-   font-size: 1.2em; 
-   color: white;
-   
-}
-.linkjumb:hover {
-    color: white;
-}
 
 .logoSkill {
     width: 50px;
 }
-/* @media screen and (max-width: 576px) {
-    .landing {
-        background-position: -50px 0;
+
+@media screen and (min-width: 992px) {
+    .profileImg {
+        width: 500px;
+        height: 500px;
     }
-} */
+}
+
+@media screen and (max-width : 500px){
+    .workup {
+        background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(164, 235, 243), rgb(244, 249, 249)) ;
+    }
+}
