@@ -1,14 +1,28 @@
 /* 
 
 
-#F4F9F9 rgb(244, 249, 249)
-#CCF2F4 rgb(204, 242, 244)
-#A4EBF3 rgb(164, 235, 243)
-#AAAAAA rgb(170, 170, 170)
+#F4F9F9 rgb(244, 249, 249) dasar
+#CCF2F4 rgb(204, 242, 244) biru muda
+#A4EBF3 rgb(164, 235, 243) biru tua
+#AAAAAA rgb(170, 170, 170) gelap
 
 
 */
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.bgdasar {
+    background-color: rgb(244, 249, 249);
+}
+.bgmuda {
+    background-color: rgb(204, 242, 244);
+}
+.bgtua {
+    background-color: rgb(164, 235, 243);
+}
+.bggelap {
+    background-color: rgb(170, 170, 170);
+}
 .landing {
     height: 100vh;
     width: 100%;
@@ -21,13 +35,8 @@
     font-size: 4em;
 }
 
-.jumbotron ,.projects  {
-   
-    background-color: rgb(244, 249, 249) ;
-}
-.project {
-    background-color: rgb(164, 235, 243)  ;
-}
+
+
 .profileImg {
     width: 300px;
     height: 300px;
