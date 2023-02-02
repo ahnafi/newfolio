@@ -40,7 +40,6 @@ body {
 .profileImg {
     width: 300px;
     height: 300px;
-    
 }
 .workup {
     background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(204, 242, 244),rgba(164, 235, 243,.8),rgba(204, 242, 244,.5),rgb(244, 249, 249),rgb(244, 249, 249),rgb(244, 249, 249)) ;
