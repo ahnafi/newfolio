@@ -31,9 +31,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-.landingfont {
+/* .landingfont {
     font-size: 4em;
-}
+} */
 
 
 
@@ -62,4 +62,7 @@ body {
     .workup {
         background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(164, 235, 243), rgb(244, 249, 249)) ;
     }
+}
+.projects img {
+    width: 100px;
 }
