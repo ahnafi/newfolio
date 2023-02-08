@@ -18,8 +18,8 @@
 </head>
 <body class="bgdasar">
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container rounded bg-white  py-2 shadow-sm ">
+<nav class="navbar navbar-expand-md bgtua sticky-top">
+    <div class="container rounded  py-2">
       <a class="navbar-brand ms-2 fw-bold" href="#">Mrnaff</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
   <div class="container-fluid landing d-flex align-items-center ">
     <div class="row m-auto">
       <div class=" col-12">
-        <h1 class="fw-bold  display-1">ENJOY BROWSING</h1>
+        <h1 class="fw-bold  display-1 ">ENJOY BROWSING</h1>
         <h1 class="fw-bold text-info display-1 ms-3 ">OUR PORTFOLIO</h1>
       </div>
     </div>
@@ -157,26 +157,33 @@
 <div class="contact bgdasar py-5" id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center mb-5">
         <h2 class="fw-bold">contact me</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-10 ">
+    <div class="row justify-content-around ">
+      <div class="col-md-5 bg-white  shadow-sm mb-2 rounded p-3">
+        <img src="" alt="">
+        <h3>Email</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, illum.</p>
+
+      </div>
+      
+      <div class="col-md-6 bg-white p-3 mb-2 rounded shadow-sm">
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <label for="inputname" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputname" placeholder="Name" required> 
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="inputemail" class="form-label">Email or Whatsapp</label>
+            <input type="text" class="form-control" id="inputemail" placeholder="Email or Whatsapp" required> 
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <div class="mb-3">
+            <label for="message" class="form-label">message</label>
+            <textarea class="form-control" id="message" rows="2" placeholder="message"></textarea>
           </div>
+          
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
@@ -184,8 +191,39 @@
   </div>
 </div>
 <!-- contact end -->
+<!-- footer -->
+<!-- footer end -->
 
-    <!-- boostrap js -->
+<footer>
+  <div class="footer bg-dark text-white">
+    <div class="container p-2">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <h4>Ahnafi</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum!</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Ahnafi</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum!</p>
+        </div>
+        <div class="col-md-4">
+          <h4>alternative link</h4>
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <hr>
+          <p>Copyright Ahnafi Sulthon all right reserved</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+</footer>
+
+<!-- boostrap js -->
     <script src="boostrap/bootstrap.min.js"></script>
 </body>
 </html>

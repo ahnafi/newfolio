@@ -9,60 +9,76 @@
 
 */
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .bgdasar {
-    background-color: rgb(244, 249, 249);
+  background-color: rgb(244, 249, 249);
 }
 .bgmuda {
-    background-color: rgb(204, 242, 244);
+  background-color: rgb(204, 242, 244);
 }
 .bgtua {
-    background-color: rgb(164, 235, 243);
+  background-color: rgb(164, 235, 243);
 }
 .bggelap {
-    background-color: rgb(170, 170, 170);
+  background-color: rgb(170, 170, 170);
 }
 .landing {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(to bottom ,rgba(204, 242, 244,.8),rgba(244, 249, 249,.5) , rgb(244, 249, 249)),url(../img/landinga.jpg);
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(164, 235, 243),
+      rgba(244, 249, 249, 0.5),
+      rgb(244, 249, 249)
+    ),
+    url(../img/landinga.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* .landingfont {
     font-size: 4em;
 } */
 
-
-
 .profileImg {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 .workup {
-    background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(204, 242, 244),rgba(164, 235, 243,.8),rgba(204, 242, 244,.5),rgb(244, 249, 249),rgb(244, 249, 249),rgb(244, 249, 249)) ;
+  background-image: linear-gradient(
+    to left,
+    rgb(244, 249, 249),
+    rgb(204, 242, 244),
+    rgba(164, 235, 243, 0.8),
+    rgba(204, 242, 244, 0.5),
+    rgb(244, 249, 249),
+    rgb(244, 249, 249),
+    rgb(244, 249, 249)
+  );
 }
 
-
-
 .logoSkill {
-    width: 50px;
+  width: 50px;
 }
 
 @media screen and (min-width: 992px) {
-    .profileImg {
-        width: 500px;
-        height: 500px;
-    }
+  .profileImg {
+    width: 500px;
+    height: 500px;
+  }
 }
 
-@media screen and (max-width : 768px){
-    .workup {
-        background-image: linear-gradient(to left ,rgb(244, 249, 249),rgb(164, 235, 243), rgb(244, 249, 249)) ;
-    }
+@media screen and (max-width: 768px) {
+  .workup {
+    background-image: linear-gradient(
+      to left,
+      rgb(244, 249, 249),
+      rgb(164, 235, 243),
+      rgb(244, 249, 249)
+    );
+  }
 }
 .projects img {
-    width: 100px;
+  width: 100px;
 }
