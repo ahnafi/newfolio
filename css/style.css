@@ -60,6 +60,7 @@ body {
 
 .logoSkill {
   width: 50px;
+  cursor: pointer;
 }
 
 .php {
